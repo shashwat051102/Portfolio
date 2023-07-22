@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    /* background-color: black; */
+    /* background-size: cover; */
+}
+body{
+    
+}
+.portfolio{
+    display: inline-block;
+    /* background-color: black; */
+}
+.wrapper{
+    background-color: black;
+    height: 745px;
+    width: 210px;
+    margin: 0%;
+    display: block;
+    float: left;
+    position: fixed;
+    background-attachment: fixed;
+}
+.img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 55px;
+    top: 30px;
+    
+}
+.img p{
+    position: relative;
+    top: 50px;
+    color: #2a8bcc;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wrap-content a{
+    display: block;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    padding: 20px;
+    color: #2a8bcc;
+
+}
+.wrap-content p{
+    display: inline;
+    margin: 5PX;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.socials a{
+    position: relative;
+    top: 290px;
+    left: 30px;
+    padding: 10px;
+    color: #2a8bcc;
+}
+
+.wrap-content a:hover{
+    color: aqua;
+}
+
+.socials a:hover{
+    color:aqua;
+}
+
+#heading{
+    height: 420px;
+    width: 86%;
+    text-align: center;
+    background-image: url(joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+    position: relative;
+    left: 210px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#heading p{
+    color: aliceblue;
+    position: relative;
+    top: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+#heading hr{
+    
+    position: relative;
+    top: 160px;
+    border: none;
+    border-bottom: 10px dotted aliceblue;
+    width: 25%;
+    left: 475px;
+    margin: 0px;
+}
+
+#intro{
+    height: 450px;
+    width: 86%;
+    background-color: black;
+    /* max-width: 100%; */
+    position: relative;
+    left: 210px;
+}
+
+#intro h1{
+    position: relative;
+    top: 170px;
+    color: aliceblue;
+    font-size: 60px;
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+#intro p{
+    position: relative;
+    top: 170px;
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+}
+
+#intro hr{
+    position: relative;
+    top: 250px;
+    border: none;
+    border-bottom: 10px dotted aliceblue;
+    width: 25%;
+    left: 475px;
+    margin: 0px;
+}
+#skills{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    left: 210px;
+    display: block;
+    height: 450px;
+    width: 86%;
+}
+
+#skills h1{
+    float: left;
+    position: relative;
+    top: 170px;
+}
+
+#skills hr{
+    position: relative;
+    top: 360px;
+    border: none;
+    border-bottom: 10px dotted aliceblue;
+    width: 25%;
+    left: 407px;
+    margin: 0px;
+}
+
+.skill-content {
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 50px;
+}
+
+.skill-content li{
+    list-style: none;
+    display: block;
+    /* float: right; */
+    position: relative;
+    padding: 20px;
+    /* left: 900px; */
+}
+.skill-content p{
+    display: inline;
+    /* margin: 30px; */
+}
+
+
+
+#projects{
+    /* display: inline-block; */
+    background-color: black;
+    position: relative;
+    left: 210px;
+    display: block;
+    height: 1000px;
+    width: 86%; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-row-gap: 5%;
+    grid-column-gap: 5%;
+    text-align: center;
+    
+
+}
+
+
+#projects h1{
+    grid-column: 1 / -1;
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    
+}
+
+.card-content{
+    position: relative;
+    /* left: 210px; */
+    background-color: aliceblue;
+    /* display: inline-block;
+    width: 40%;
+    height: 400px; */
+    display: grid;
+    grid-template-rows: max-content 70px 1fr;
+    background-color: aliceblue;
+    border-radius: 10%;
+    top: 100px;
+    
+
+}
+
+.card-content:hover{
+        box-shadow: 0 8px 16px 0 rgb(255, 253, 253);
+
+}
+
+.card-content a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2a8bcc;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#education{
+    height: 600px;
+    width: 86%;
+    background-color: black;
+    /* max-width: 100%; */
+    position: relative;
+    left: 210px;
+}
+
+#education h1{
+    position: relative;
+    top: 170px;
+    color: aliceblue;
+    font-size: 60px;
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+#education p{
+    position: relative;
+    top: 170px;
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    text-align: justify;
+}
+#education hr{
+    position: relative;
+    top: 70px;
+    border: none;
+    border-bottom: 10px dotted aliceblue;
+    width: 25%;
+    left: 450px;
+    margin: 0px;
+}
+
+#copyright{
+    height: 100px;
+    width: 86%;
+    background-color: black;
+    /* max-width: 100%; */
+    position: relative;
+    left: 210px;
+    color: #2a8bcc;
+    text-align: center;
+    
+}
+
+#copyright i{
+    position: relative;
+    top: 50px;
+}
+
+#copyright hr{
+    border-top: 0.05px solid rgb(36, 40, 44);
+    position: relative;
+    top: 20px;
+}
+
+#copyright p{
+    display: inline;
+    color: #2a8bcc;
+    padding: 10px;
+    font-size: 13px;
+    
+}
